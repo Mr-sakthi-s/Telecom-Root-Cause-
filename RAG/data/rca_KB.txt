@@ -1,0 +1,377 @@
+========================================================
+RCA_001
+========================================================
+
+ROOT CAUSE:
+Network Congestion
+
+DESCRIPTION:
+Traffic demand exceeds available network capacity.
+
+INDICATORS:
+Traffic Alerts
+Packet Quality Indicators
+High Log Volume
+
+SYMPTOMS:
+Packet Loss
+Latency
+Throughput Reduction
+
+PREVENTION:
+Capacity Planning
+Traffic Forecasting
+Load Balancing
+
+REMEDIATION:
+Check utilization
+Analyze queue statistics
+Increase bandwidth
+
+========================================================
+RCA_002
+========================================================
+
+ROOT CAUSE:
+Backhaul Congestion
+
+DESCRIPTION:
+Transmission links are overloaded.
+
+INDICATORS:
+Backhaul Congestion Alert
+Traffic Indicators
+
+SYMPTOMS:
+Latency
+Packet Drops
+Bandwidth Saturation
+
+PREVENTION:
+Upgrade transmission capacity
+Traffic engineering
+
+REMEDIATION:
+Inspect backhaul utilization
+Redistribute traffic
+
+========================================================
+RCA_003
+========================================================
+
+ROOT CAUSE:
+Router CPU Saturation
+
+DESCRIPTION:
+Router processing resources exhausted.
+
+INDICATORS:
+Core Router Group
+Traffic Spike Alert
+Hardware Indicators
+
+SYMPTOMS:
+Slow packet forwarding
+Latency
+Packet Loss
+
+PREVENTION:
+Capacity planning
+CPU monitoring
+
+REMEDIATION:
+Analyze CPU utilization
+Reduce traffic load
+
+========================================================
+RCA_004
+========================================================
+
+ROOT CAUSE:
+Memory Exhaustion
+
+DESCRIPTION:
+Network device memory depleted.
+
+INDICATORS:
+Hardware Indicators
+Service Failure Events
+
+SYMPTOMS:
+Application crashes
+Slow response
+Session drops
+
+PREVENTION:
+Memory monitoring
+
+REMEDIATION:
+Inspect memory usage
+Restart services
+
+========================================================
+RCA_005
+========================================================
+
+ROOT CAUSE:
+Fiber Link Degradation
+
+DESCRIPTION:
+Fiber quality deterioration.
+
+INDICATORS:
+Optical Signal Loss
+Optical Indicators
+
+SYMPTOMS:
+Packet Loss
+Link Flapping
+Signal Attenuation
+
+PREVENTION:
+Fiber inspection
+Connector cleaning
+
+REMEDIATION:
+Measure optical power
+Replace damaged fiber
+
+========================================================
+RCA_006
+========================================================
+
+ROOT CAUSE:
+Optical Transmission Failure
+
+DESCRIPTION:
+Optical transmission equipment malfunction.
+
+INDICATORS:
+Optical Indicators
+Transmission Equipment
+
+SYMPTOMS:
+Link failure
+Service degradation
+
+PREVENTION:
+Optical monitoring
+
+REMEDIATION:
+Inspect transceivers
+Replace modules
+
+========================================================
+RCA_007
+========================================================
+
+ROOT CAUSE:
+Power Supply Failure
+
+DESCRIPTION:
+Power instability affecting devices.
+
+INDICATORS:
+Power Instability Alert
+Power Indicators
+
+SYMPTOMS:
+Unexpected reboot
+Outage
+
+PREVENTION:
+Battery testing
+Redundant power
+
+REMEDIATION:
+Inspect PSU
+Verify voltage
+
+========================================================
+RCA_008
+========================================================
+
+ROOT CAUSE:
+Battery Failure
+
+DESCRIPTION:
+Backup battery unable to sustain operation.
+
+INDICATORS:
+Battery Failure Alert
+
+SYMPTOMS:
+Unexpected shutdown
+
+PREVENTION:
+Battery replacement schedule
+
+REMEDIATION:
+Inspect battery health
+
+========================================================
+RCA_009
+========================================================
+
+ROOT CAUSE:
+Cooling System Failure
+
+DESCRIPTION:
+Environmental controls malfunctioning.
+
+INDICATORS:
+Cooling Failure Alert
+Temperature Warning
+
+SYMPTOMS:
+Overheating
+Device instability
+
+PREVENTION:
+Temperature monitoring
+
+REMEDIATION:
+Inspect cooling units
+
+========================================================
+RCA_010
+========================================================
+
+ROOT CAUSE:
+Routing Instability
+
+DESCRIPTION:
+Frequent route changes affecting traffic.
+
+INDICATORS:
+Routing Alerts
+
+SYMPTOMS:
+Intermittent connectivity
+
+PREVENTION:
+Route validation
+
+REMEDIATION:
+Review routing policies
+
+========================================================
+RCA_011
+========================================================
+
+ROOT CAUSE:
+Configuration Error
+
+DESCRIPTION:
+Incorrect network configuration.
+
+INDICATORS:
+Configuration Error Alert
+Configuration Indicators
+
+SYMPTOMS:
+Connectivity failures
+Routing issues
+
+PREVENTION:
+Configuration auditing
+
+REMEDIATION:
+Rollback changes
+Validate configuration
+
+========================================================
+RCA_012
+========================================================
+
+ROOT CAUSE:
+Authentication Service Failure
+
+DESCRIPTION:
+Authentication infrastructure unavailable.
+
+INDICATORS:
+Authentication Failure
+
+SYMPTOMS:
+Login failures
+Access denial
+
+PREVENTION:
+Identity service monitoring
+
+REMEDIATION:
+Check AAA servers
+
+========================================================
+RCA_013
+========================================================
+
+ROOT CAUSE:
+DNS Service Failure
+
+DESCRIPTION:
+Domain resolution unavailable.
+
+INDICATORS:
+DNS Resolution Failure
+
+SYMPTOMS:
+Application inaccessibility
+
+PREVENTION:
+DNS redundancy
+
+REMEDIATION:
+Inspect DNS servers
+
+========================================================
+RCA_014
+========================================================
+
+ROOT CAUSE:
+Radio Equipment Failure
+
+DESCRIPTION:
+Radio communication equipment malfunction.
+
+INDICATORS:
+Radio Access Equipment
+Infrastructure Alerts
+
+SYMPTOMS:
+Coverage loss
+Call drops
+
+PREVENTION:
+Periodic hardware inspection
+
+REMEDIATION:
+Replace faulty radio modules
+
+========================================================
+RCA_015
+========================================================
+
+ROOT CAUSE:
+Security Incident
+
+DESCRIPTION:
+Potential cyber attack or malicious traffic.
+
+INDICATORS:
+Security Indicators
+Intrusion Alerts
+DDoS Alerts
+
+SYMPTOMS:
+Traffic surge
+Service disruption
+
+PREVENTION:
+Traffic filtering
+IDS/IPS monitoring
+
+REMEDIATION:
+Block malicious sources
+Apply mitigation controls

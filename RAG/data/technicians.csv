@@ -1,0 +1,41 @@
+technician_id,technician_name,region,skill_type,skill_category,available,current_load
+T001,Pooja,region_0,resource_type 1,Core Router Group,True,1
+T002,Vignesh,region_0,resource_type 2,Edge Router Group,True,2
+T003,Divya,region_0,resource_type 3,Access Switch Group,True,0
+T004,Priya,region_0,resource_type 4,Aggregation Switch Group,True,3
+T005,Kavya,region_1,resource_type 5,Fiber Infrastructure,True,1
+T006,Ganesh,region_1,resource_type 6,Optical Transmission Equipment,True,2
+T007,Suresh,region_1,resource_type 7,Base Station Controller,True,1
+T008,Ravi,region_1,resource_type 8,Radio Access Equipment,True,0
+T009,Prakash,region_2,resource_type 9,Power Supply Systems,True,1
+T010,Anitha,region_2,resource_type 10,Environmental Control Systems,True,0
+T011,Arun,region_2,resource_type 5,Fiber Infrastructure,True,2
+T012,Meena,region_2,resource_type 6,Optical Transmission Equipment,True,1
+T013,Lakshmi,region_3,resource_type 1,Core Router Group,True,0
+T014,Sathish,region_3,resource_type 2,Edge Router Group,True,1
+T015,Pooja,region_3,resource_type 3,Access Switch Group,True,2
+T016,Divya,region_3,resource_type 4,Aggregation Switch Group,False,5
+T017,Vignesh,region_4,resource_type 5,Fiber Infrastructure,True,0
+T018,Ganesh,region_4,resource_type 6,Optical Transmission Equipment,True,2
+T019,Kavya,region_4,resource_type 7,Base Station Controller,True,1
+T020,Ravi,region_4,resource_type 8,Radio Access Equipment,True,0
+T021,Prakash,region_5,resource_type 9,Power Supply Systems,True,0
+T022,Anitha,region_5,resource_type 10,Environmental Control Systems,True,1
+T023,Arun,region_5,resource_type 5,Fiber Infrastructure,True,3
+T024,Meena,region_5,resource_type 6,Optical Transmission Equipment,True,2
+T025,Suresh,region_6,resource_type 1,Core Router Group,True,1
+T026,Lakshmi,region_6,resource_type 2,Edge Router Group,True,0
+T027,Priya,region_6,resource_type 3,Access Switch Group,True,2
+T028,Deepa,region_6,resource_type 4,Aggregation Switch Group,True,1
+T029,Vignesh,region_7,resource_type 5,Fiber Infrastructure,True,0
+T030,Ganesh,region_7,resource_type 6,Optical Transmission Equipment,True,1
+T031,Ravi,region_7,resource_type 7,Base Station Controller,True,1
+T032,Kavya,region_7,resource_type 8,Radio Access Equipment,True,0
+T033,Pooja,region_8,resource_type 9,Power Supply Systems,True,1
+T034,Prakash,region_8,resource_type 10,Environmental Control Systems,True,2
+T035,Arun,region_8,resource_type 5,Fiber Infrastructure,True,1
+T036,Meena,region_8,resource_type 6,Optical Transmission Equipment,True,0
+T037,Sathish,region_9,resource_type 7,Base Station Controller,True,1
+T038,Lakshmi,region_9,resource_type 8,Radio Access Equipment,True,0
+T039,Arun,region_9,resource_type 5,Fiber Infrastructure,True,2
+T040,Prakash,region_9,resource_type 9,Power Supply Systems,True,1

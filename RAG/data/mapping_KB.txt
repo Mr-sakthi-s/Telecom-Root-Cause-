@@ -1,0 +1,262 @@
+========================================================
+TELECOM DOMAIN KNOWLEDGE ABSTRACTION LAYER
+========================================================
+
+NOTE:
+The Telstra dataset contains anonymized identifiers.
+The following mappings are synthetic telecom-domain mappings
+created for prototype RCA and preventive maintenance analysis.
+
+========================================================
+SEVERITY TYPE MAPPING
+========================================================
+
+severity_type 1
+Category: Informational Alert
+Description:
+Low-risk operational notification.
+No immediate customer impact.
+
+severity_type 2
+Category: Minor Alert
+Description:
+Small degradation in network performance.
+
+severity_type 3
+Category: Moderate Alert
+Description:
+Potential service quality degradation.
+
+severity_type 4
+Category: Major Alert
+Description:
+Multiple alarms detected.
+Service instability possible.
+
+severity_type 5
+Category: Critical Alert
+Description:
+High probability of service disruption.
+Immediate investigation required.
+
+========================================================
+RESOURCE TYPE MAPPING
+========================================================
+
+resource_type 1
+Category: Core Router Group
+
+resource_type 2
+Category: Edge Router Group
+
+resource_type 3
+Category: Access Switch Group
+
+resource_type 4
+Category: Aggregation Switch Group
+
+resource_type 5
+Category: Fiber Infrastructure
+
+resource_type 6
+Category: Optical Transmission Equipment
+
+resource_type 7
+Category: Base Station Controller
+
+resource_type 8
+Category: Radio Access Equipment
+
+resource_type 9
+Category: Power Supply Systems
+
+resource_type 10
+Category: Environmental Control Systems
+
+========================================================
+EVENT TYPE MAPPING
+========================================================
+
+event_type 1
+Connectivity Warning
+
+event_type 2
+Connectivity Failure
+
+event_type 3
+Link Instability Alert
+
+event_type 4
+Interface Failure Alert
+
+event_type 5
+Network Reachability Alert
+
+event_type 6
+Connection Reset Event
+
+event_type 7
+Packet Loss Alert
+
+event_type 8
+Session Failure Alert
+
+event_type 9
+Service Timeout Alert
+
+event_type 10
+Network Recovery Event
+
+event_type 11
+Traffic Congestion Alert
+
+event_type 12
+Queue Overflow Alert
+
+event_type 13
+Bandwidth Saturation Alert
+
+event_type 14
+High Latency Alert
+
+event_type 15
+Throughput Degradation Alert
+
+event_type 16
+Traffic Spike Alert
+
+event_type 17
+Backhaul Congestion Alert
+
+event_type 18
+Routing Delay Alert
+
+event_type 19
+Core Network Load Alert
+
+event_type 20
+Performance Degradation Alert
+
+event_type 21
+Routing Table Change
+
+event_type 22
+Route Instability Alert
+
+event_type 23
+Route Convergence Delay
+
+event_type 24
+BGP Peer Failure
+
+event_type 25
+OSPF Neighbor Failure
+
+event_type 26
+Route Advertisement Error
+
+event_type 27
+Route Policy Violation
+
+event_type 28
+Network Loop Detection
+
+event_type 29
+Gateway Failure
+
+event_type 30
+Traffic Rerouting Event
+
+event_type 31
+Hardware Health Warning
+
+event_type 32
+Device Failure Alert
+
+event_type 33
+Temperature Warning
+
+event_type 34
+Cooling Failure Alert
+
+event_type 35
+Power Instability Alert
+
+event_type 36
+Battery Failure Alert
+
+event_type 37
+Hardware Restart Event
+
+event_type 38
+Optical Signal Loss
+
+event_type 39
+Fiber Quality Warning
+
+event_type 40
+Physical Infrastructure Failure
+
+event_type 41
+Authentication Failure
+
+event_type 42
+Authorization Failure
+
+event_type 43
+DNS Resolution Failure
+
+event_type 44
+Application Service Failure
+
+event_type 45
+Database Service Failure
+
+event_type 46
+Configuration Error Alert
+
+event_type 47
+Firmware Error Alert
+
+event_type 48
+Security Threat Alert
+
+event_type 49
+Intrusion Detection Alert
+
+event_type 50
+DDoS Suspicion Alert
+
+event_type 51
+Anomaly Detection Alert
+
+event_type 52
+Critical Service Failure
+
+event_type 53
+System-Wide Outage Alert
+
+========================================================
+LOG FEATURE GROUPS
+========================================================
+
+feature 1-50
+Packet Quality Indicators
+
+feature 51-100
+Traffic Indicators
+
+feature 101-150
+Hardware Indicators
+
+feature 151-200
+Power Indicators
+
+feature 201-250
+Optical Indicators
+
+feature 251-300
+Configuration Indicators
+
+feature 301-386
+Security Indicators

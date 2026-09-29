@@ -1,0 +1,40 @@
+part_type,part_name,region,stock_count,reorder_threshold
+resource_type 1,Core Router Card,region_0,10,3
+resource_type 1,Core Router Card,region_1,8,3
+resource_type 1,Core Router Card,region_2,12,3
+resource_type 2,Edge Router Module,region_0,7,3
+resource_type 2,Edge Router Module,region_1,5,3
+resource_type 2,Edge Router Module,region_2,10,3
+resource_type 3,Access Switch Board,region_0,15,3
+resource_type 3,Access Switch Board,region_1,10,3
+resource_type 3,Access Switch Board,region_2,12,3
+resource_type 4,Aggregation Switch Module,region_0,8,3
+resource_type 4,Aggregation Switch Module,region_1,5,3
+resource_type 4,Aggregation Switch Module,region_2,7,3
+resource_type 5,Fiber Patch Panel,region_0,20,3
+resource_type 5,Fiber Patch Panel,region_1,25,3
+resource_type 5,Fiber Patch Panel,region_2,15,3
+resource_type 5,Fiber Patch Panel,region_3,18,3
+resource_type 5,Fiber Patch Panel,region_4,12,3
+resource_type 5,Fiber Patch Panel,region_5,20,3
+resource_type 5,Fiber Patch Panel,region_6,15,3
+resource_type 5,Fiber Patch Panel,region_7,10,3
+resource_type 5,Fiber Patch Panel,region_8,14,3
+resource_type 5,Fiber Patch Panel,region_9,18,3
+resource_type 6,Optical Transceiver,region_0,15,3
+resource_type 6,Optical Transceiver,region_1,12,3
+resource_type 6,Optical Transceiver,region_2,20,3
+resource_type 6,Optical Transceiver,region_3,10,3
+resource_type 6,Optical Transceiver,region_4,8,3
+resource_type 7,BSC Controller Board,region_0,5,2
+resource_type 7,BSC Controller Board,region_1,6,2
+resource_type 7,BSC Controller Board,region_2,5,2
+resource_type 8,Radio Unit Module,region_0,20,5
+resource_type 8,Radio Unit Module,region_1,15,5
+resource_type 8,Radio Unit Module,region_2,18,5
+resource_type 9,UPS Battery Pack,region_0,10,2
+resource_type 9,UPS Battery Pack,region_1,12,2
+resource_type 9,UPS Battery Pack,region_2,15,2
+resource_type 10,Cooling Fan Assembly,region_0,8,2
+resource_type 10,Cooling Fan Assembly,region_1,10,2
+resource_type 10,Cooling Fan Assembly,region_2,12,2
